@@ -16,6 +16,7 @@ $ sudo apt update && \
 $ sudo pip3 install pip --upgrade
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp38-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install *.whl
+$ sudo pip3 install opencv-python
 ```
 
 ## 3. Build
