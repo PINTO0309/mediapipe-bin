@@ -8,7 +8,13 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 and 
 |RaspberryPi3/4|Ubuntu 18.04|Bionic|aarch64 / armv8|3.6.9|1.19|64bit, glibc2.27|
 |RaspberryPi3/4|Ubuntu 20.04|Focal|aarch64 / armv8|3.8.2|1.19/1.20|64bit, glibc2.31|
 
-## 2. Build
+## 2. Install
+```bash
+$ ./v0.8.4/numpy120x/mediapipe-0.8-cp37-none-linux_aarch64_numpy120x_download.sh
+$ sudo pip3 install *.whl
+```
+
+## 3. Build
 ```bash
 $ sudo apt update && \
   sudo apt install -y \
@@ -34,5 +40,5 @@ $ sudo bazel clean --expunge
 $ sudo python3 setup.py bdist_wheel
 ```
 
-## 3. Reference
+## 4. Reference
 1. I was inspired by **[jiuqiant's](https://github.com/jiuqiant/mediapipe_python_aarch64)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** to create this repository. Thank you so much!
