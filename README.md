@@ -14,6 +14,7 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 and 
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
 $ sudo pip3 install pip --upgrade
+$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp37-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install *.whl
 $ sudo pip3 install opencv-python
@@ -22,6 +23,7 @@ $ sudo pip3 install opencv-python
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
 $ sudo pip3 install pip --upgrade
+$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp38-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install *.whl
 $ sudo pip3 install opencv-python
