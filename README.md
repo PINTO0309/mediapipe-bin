@@ -57,7 +57,7 @@ $ sudo python3 setup.py bdist_wheel
 ```
 
 ## 5. Reference
-1. I was inspired by **[jiuqiant's](https://github.com/jiuqiant/mediapipe_python_aarch64)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** to create this repository. Thank you so much!
-2. Article: **[How to enjoy MediaPipe easily with Raspberry Pi - karaage0703 - Zenn](https://zenn.dev/karaage0703/articles/63fed2a261096d)**
-3. Sample: **[mediapipe-python-sample - Kazuhito00 - GitHub](https://github.com/Kazuhito00/mediapipe-python-sample)**
+1. I was inspired by **[jiuqiant's](https://github.com/jiuqiant/mediapipe_python_aarch64)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** to create this repository. Thank you so much! 🌠
+2. Article: **[How to enjoy MediaPipe easily with Raspberry Pi - karaage0703 - Zenn](https://zenn.dev/karaage0703/articles/63fed2a261096d)** 🌟
+3. Sample: **[mediapipe-python-sample - Kazuhito00 - GitHub](https://github.com/Kazuhito00/mediapipe-python-sample)** 🌟
 4. OS Image: **https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2021-05-28/**
