@@ -29,7 +29,12 @@ $ sudo pip3 install *.whl
 $ sudo pip3 install opencv-python
 ```
 ## 3. Sample
-### 3-1. RaspberryPi4 + RaspberryPi OS 64bit (aarch64) + CPU only (9.0FPS)
+### 3-1. RaspberryPi4 + RaspberryPi OS 64bit (aarch64) + Python3.7 + CPU only (9.0FPS)
+```bash
+$ cd ~
+$ git clone https://github.com/Kazuhito00/mediapipe-python-sample && cd mediapipe-python-sample
+$ python3 sample_hand.py
+```
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/33194443/120130242-a4774300-c200-11eb-8a74-d7f74384a4eb.gif)
 
 ## 4. Build
