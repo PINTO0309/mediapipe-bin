@@ -4,12 +4,20 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 and 
 ## 1. Binary type
 |Device|OS|Distribution|Architecture|Python ver|Numpy ver|Note|
 |:--|:--|:--|:--|:--|:--|:--|
-|(experimental) RaspberryPi3/4|RaspberryPiOS/Debian|Buster|aarch64 / armv8|3.7.3|1.19/1.20|64bit, glibc2.28|
+|RaspberryPi3/4|RaspberryPiOS/Debian|Buster|aarch64 / armv8|3.7.3|1.19/1.20|64bit, glibc2.28|
 |RaspberryPi3/4|Ubuntu 18.04|Bionic|aarch64 / armv8|3.6.9|1.19|64bit, glibc2.27|
 |RaspberryPi3/4|Ubuntu 20.04|Focal|aarch64 / armv8|3.8.2|1.19/1.20|64bit, glibc2.31|
 
 ## 2. Install
 ```bash
+### RaspberryPi OS 64bit Buster
+$ sudo apt update && \
+  sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
+$ sudo pip3 install pip --upgrade
+$ ./v0.8.4/numpy120x/mediapipe-0.8-cp37-none-linux_aarch64_numpy120x_download.sh
+$ sudo pip3 install *.whl
+$ sudo pip3 install opencv-python
+
 ### Ubuntu 20.04 aarch64
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
