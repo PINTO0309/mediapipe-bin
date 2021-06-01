@@ -7,6 +7,7 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 and 
 |RaspberryPi3/4|RaspberryPiOS/Debian|Buster|aarch64 / armv8|3.7.3|1.19/1.20|64bit, glibc2.28|
 |RaspberryPi3/4|Ubuntu 18.04|Bionic|aarch64 / armv8|3.6.9|1.19|64bit, glibc2.27|
 |RaspberryPi3/4|Ubuntu 20.04|Focal|aarch64 / armv8|3.8.2|1.19/1.20|64bit, glibc2.31|
+|(Experimental) Jetson Nano|L4T (Ubuntu 18.04)|32.5.1|aarch64 / armv8|3.6.9|1.19|64bit, glibc2.27,Pose/Holistic only,OpenGL ES3.2|
 
 ## 2. Install
 ```bash
