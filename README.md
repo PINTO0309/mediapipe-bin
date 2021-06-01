@@ -1,5 +1,5 @@
 # mediapipe-bin
-MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 and Debian aarch64.
+MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 Debian aarch64, L4T/Jetson Nano aarch64.
 
 ## 1. Binary type
 |Device|OS|Distribution|Architecture|Python ver|Numpy ver|Note|
