@@ -39,6 +39,13 @@ $ git clone https://github.com/Kazuhito00/mediapipe-python-sample && cd mediapip
 $ python3 sample_hand.py
 ```
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/33194443/120130242-a4774300-c200-11eb-8a74-d7f74384a4eb.gif)
+### 3-2. Jetson Nano + L4T 32.5.1 64bit (aarch64) + Python3.6 + GPU (22.0FPS)
+```bash
+$ cd ~
+$ git clone https://github.com/Kazuhito00/mediapipe-python-sample && cd mediapipe-python-sample
+$ python3 sample_hand.py
+```
+![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/33194443/120900199-76fe1f80-c66e-11eb-9b06-812b38b7600a.gif)
 
 ## 4. Build
 ```bash
