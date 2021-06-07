@@ -66,6 +66,7 @@ $ python3 sample_hand.py
 ![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/33194443/120900199-76fe1f80-c66e-11eb-9b06-812b38b7600a.gif)
 
 ## 4. Build
+### 4-1. Other than Jetson Nano
 ```bash
 $ sudo apt update && \
   sudo apt install -y \
