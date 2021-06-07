@@ -91,6 +91,8 @@ $ sudo python3 setup.py gen_protos
 $ sudo bazel clean --expunge
 $ sudo python3 setup.py bdist_wheel
 ```
+### 4-2. (Experimental / WIP) Jetson Nano
+**[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**
 
 ## 5. Reference
 1. I was inspired by **[jiuqiant's](https://github.com/jiuqiant/mediapipe_python_aarch64)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** to create this repository. Thank you so much! 🌠
