@@ -37,6 +37,17 @@ opencv_contrib_python-4.5.2.52-cp38-none-linux_aarch64.whl \
 mediapipe-0.8-cp38-none-linux_aarch64.whl
 $ sudo pip3 install opencv-python dataclasses
 
+### Ubuntu 21.04 aarch64
+$ sudo apt update && \
+  sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
+$ sudo pip3 install pip --upgrade
+$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
+$ ./v0.8.4/numpy120x/mediapipe-0.8-cp39-none-linux_aarch64_numpy120x_ubuntu2104_download.sh
+$ sudo pip3 install \
+opencv_contrib_python-4.5.2.52-cp39-none-linux_aarch64.whl \
+mediapipe-0.8-cp39-none-linux_aarch64.whl
+$ sudo pip3 install opencv-python dataclasses
+
 ### Jetson Nano L4T 32.5.1 aarch64
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
