@@ -12,8 +12,8 @@ curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1QooeLQWaZv
 CODE="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
 curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE}&id=1QooeLQWaZvGg5EQ8lg0iOSvbKNNKgx-b" -o numpy-1.19.3-cp37-none-linux_aarch64.whl
 
-curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1alYSAFdcFvo0BE1BRNAa3S6FCoRuIe42" > /dev/null
-CODE="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
-curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE}&id=1alYSAFdcFvo0BE1BRNAa3S6FCoRuIe42" -o opencv_contrib_python-4.5.2.52-cp37-none-linux_aarch64.whl
+# curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1alYSAFdcFvo0BE1BRNAa3S6FCoRuIe42" > /dev/null
+# CODE="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
+# curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE}&id=1alYSAFdcFvo0BE1BRNAa3S6FCoRuIe42" -o opencv_contrib_python-4.5.2.52-cp37-none-linux_aarch64.whl
 
 echo Download finished.
