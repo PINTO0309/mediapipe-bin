@@ -17,12 +17,12 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 Debi
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
 $ sudo pip3 install pip --upgrade
+$ sudo pip3 install opencv_contrib_python
 $ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp37-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install \
 cmake-3.20.2-cp37-none-linux_aarch64.whl \
 numpy-1.20.3-cp37-none-linux_aarch64.whl \
-opencv_contrib_python-4.5.2.52-cp37-none-linux_aarch64.whl \
 mediapipe-0.8-cp37-none-linux_aarch64.whl
 $ sudo pip3 install opencv-python dataclasses
 
@@ -30,6 +30,7 @@ $ sudo pip3 install opencv-python dataclasses
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
 $ sudo pip3 install pip --upgrade
+$ sudo pip3 install opencv_contrib_python
 $ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp38-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install \
@@ -41,10 +42,10 @@ $ sudo pip3 install opencv-python dataclasses
 $ sudo apt update && \
   sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
 $ sudo pip3 install pip --upgrade
+$ sudo pip3 install opencv_contrib_python
 $ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp39-none-linux_aarch64_numpy120x_ubuntu2104_download.sh
 $ sudo pip3 install \
-opencv_contrib_python-4.5.2.52-cp39-none-linux_aarch64.whl \
 mediapipe-0.8-cp39-none-linux_aarch64.whl
 $ sudo pip3 install opencv-python dataclasses
 
@@ -68,11 +69,11 @@ libprotobuf-dev libgoogle-glog-dev libgflags-dev \
 libavutil55=7:3.4.2-2 libavutil-dev libavcodec-dev \
 libavformat-dev libswscale-dev ffmpeg
 $ sudo pip3 install pip --upgrade
+$ sudo pip3 install opencv_contrib_python
 $ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.5/numpy119x/mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64_numpy119x_jetsonnano_L4T32.5.1_download.sh
 $ sudo pip3 install \
 numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl \
-opencv_contrib_python-4.5.2.52-cp36-none-linux_aarch64.whl \
 mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
 $ sudo pip3 install opencv-python dataclasses
 ```
