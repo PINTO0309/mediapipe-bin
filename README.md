@@ -34,7 +34,6 @@ $ sudo pip3 install opencv_contrib_python
 $ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
 $ ./v0.8.4/numpy120x/mediapipe-0.8-cp38-none-linux_aarch64_numpy120x_download.sh
 $ sudo pip3 install \
-opencv_contrib_python-4.5.2.52-cp38-none-linux_aarch64.whl \
 mediapipe-0.8-cp38-none-linux_aarch64.whl
 $ sudo pip3 install opencv-python dataclasses
 
