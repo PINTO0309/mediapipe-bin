@@ -121,6 +121,10 @@ $ sudo python3 setup.py bdist_wheel
 ### 4-2. (Experimental / WIP) Jetson Nano
 - **[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**
 
+### 4-3. opencv_contrib_python-4.5.* 
+- [Build the Wheel installer for opencv-contrib-python](https://zenn.dev/pinto0309/scraps/e10bc3a8be82f1)
+
+
 ## 5. Reference
 1. I was inspired by **[jiuqiant's](https://github.com/jiuqiant/mediapipe_python_aarch64)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** to create this repository. Thank you so much! 🌠
 2. Article: **[How to enjoy MediaPipe easily with Raspberry Pi - karaage0703 - Zenn](https://zenn.dev/karaage0703/articles/63fed2a261096d)** 🌟
