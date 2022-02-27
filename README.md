@@ -11,70 +11,11 @@ MediaPipe Python Wheel installer for RaspberryPi OS aarch64, Ubuntu aarch64 Debi
 |(Experimental) RaspberryPi3/4|Debian|Bullseye|aarch64 / armv8|3.9.2|1.20|64bit, glibc2.31, gcc-8.5|
 |RaspberryPi3/4|Ubuntu 21.04|Hirsute|aarch64 / armv8|3.9.5|1.20|64bit, glibc2.33, gcc-7.5|
 
-## 2. Install
+## 2. Wheels download
 ```bash
-### RaspberryPi OS 64bit Buster
-$ sudo apt update && \
-  sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
-$ sudo pip3 install pip --upgrade
-$ sudo pip3 install opencv_contrib_python
-$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
-$ ./v0.8.4/numpy120x/mediapipe-0.8-cp37-none-linux_aarch64_numpy120x_download.sh
-$ sudo pip3 install \
-cmake-3.20.2-cp37-none-linux_aarch64.whl \
-numpy-1.20.3-cp37-none-linux_aarch64.whl \
-mediapipe-0.8-cp37-none-linux_aarch64.whl
-$ sudo pip3 install opencv-python dataclasses
-
-### Ubuntu 20.04 aarch64
-$ sudo apt update && \
-  sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
-$ sudo pip3 install pip --upgrade
-$ sudo pip3 install opencv_contrib_python
-$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
-$ ./v0.8.4/numpy120x/mediapipe-0.8-cp38-none-linux_aarch64_numpy120x_download.sh
-$ sudo pip3 install \
-mediapipe-0.8-cp38-none-linux_aarch64.whl
-$ sudo pip3 install opencv-python dataclasses
-
-### Ubuntu 21.04 aarch64
-$ sudo apt update && \
-  sudo apt install -y python3-dev protobuf-compiler python3-pip git make libssl-dev
-$ sudo pip3 install pip --upgrade
-$ sudo pip3 install opencv_contrib_python
-$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
-$ ./v0.8.4/numpy120x/mediapipe-0.8-cp39-none-linux_aarch64_numpy120x_ubuntu2104_download.sh
-$ sudo pip3 install \
-mediapipe-0.8-cp39-none-linux_aarch64.whl
-$ sudo pip3 install opencv-python dataclasses
-
-### Jetson Nano L4T 32.5.1 aarch64
-$ sudo apt update && \
-sudo apt-get install -y \
-build-essential cmake git unzip pkg-config \
-libjpeg-dev libpng-dev libgtk2.0-dev \
-python3-dev python3-numpy python3-pip \
-libxvidcore-dev libx264-dev libssl-dev \
-libtbb2 libtbb-dev libdc1394-22-dev \
-gstreamer1.0-tools libv4l-dev v4l-utils \
-libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
-libvorbis-dev libxine2-dev \
-libfaac-dev libmp3lame-dev libtheora-dev \
-libopencore-amrnb-dev libopencore-amrwb-dev \
-libopenblas-dev libatlas-base-dev libblas-dev \
-liblapack-dev libeigen3-dev \
-libhdf5-dev protobuf-compiler \
-libprotobuf-dev libgoogle-glog-dev libgflags-dev \
-libavutil55=7:3.4.2-2 libavutil-dev libavcodec-dev \
-libavformat-dev libswscale-dev ffmpeg
-$ sudo pip3 install pip --upgrade
-$ sudo pip3 install opencv_contrib_python
-$ git clone https://github.com/PINTO0309/mediapipe-bin && cd mediapipe-bin
-$ ./v0.8.5/numpy119x/mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64_numpy119x_jetsonnano_L4T32.5.1_download.sh
-$ sudo pip3 install \
-numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl \
-mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
-$ sudo pip3 install opencv-python dataclasses
+$ git clone https://github.com/PINTO0309/mediapipe-bin.git && cd mediapipe-bin
+$ sudo chmod +x ./v0.8.4/download.sh && ./v0.8.4/download.sh
+$ sudo chmod +x ./v0.8.5/download.sh && ./v0.8.5/download.sh
 ```
 ## 3. Sample
 ### 3-1. RaspberryPi4 + RaspberryPi OS 64bit (aarch64) + Python3.7 + CPU only (9.0FPS)
