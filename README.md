@@ -38,7 +38,7 @@ $ python3 sample_hand.py
 ```bash
 $ sudo apt update && \
   sudo apt install -y \
-  python3-dev cmake protobuf-compiler \
+  python3-dev cmake protobuf-compiler libprotobuf-dev \
   python3-pip git make openjdk-11-jdk-headless
 
 $ sudo pip3 install pip setuptools --upgrade
